@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+}
+html,body{
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background-color: blueviolet;
+}
+.wrapper{
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+}
+.title h1{
+      color: blueviolet;
+      margin-bottom: 10px;
+}
+.field{
+      border: 1px solid rgb(141, 141, 141);
+      width: fit-content;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin: 10px 30px;
+}
+.field i{
+      width: 30px;
+      text-align: center;
+      color: gray;
+      margin-left: -5px;
+}
+.field input{
+      font-size: 15px;
+      border: none;
+}
+.field input:focus{
+      outline: none;
+      border: none;
+}
+.options{
+      display: flex;
+      margin: 10px 0;
+}
+.options h5{
+      margin: auto;
+}
+.btn-login{
+      width: 100%;
+      padding: 5px 10px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      background-color: blueviolet;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+} 
+.wrapper h4{
+      color: blueviolet;
+      margin: 5px 0;
+}
+.btn-google{
+      color: green;
+      font-weight: bold;
+      background: none;
+      border: none;
+      margin: -3px 0 5px 0;
+      cursor: pointer;
+}
+::selection{
+      background-color: blueviolet;
+      color: white;
+}
